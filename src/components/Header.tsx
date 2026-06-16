@@ -3,13 +3,18 @@
 import { useEffect, useState } from "react";
 
 export default function Header() {
-  const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [theme, setTheme] = useState<"light" | "dark">(() => {
+    if (typeof window !== "undefined") {
+      return document.documentElement.classList.contains("dark") ? "dark" : "light";
+    }
+    return "light";
+  });
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
-    const isDark = document.documentElement.classList.contains("dark");
-    setTheme(isDark ? "dark" : "light");
+    requestAnimationFrame(() => {
+      setMounted(true);
+    });
   }, []);
 
   const toggleTheme = () => {
@@ -50,13 +55,13 @@ export default function Header() {
             onClick={() => scrollToSection("projects")}
             className="hover:text-accent dark:hover:text-accent-dark transition-colors duration-200 cursor-pointer"
           >
-            Projects
+            Case Studies
           </button>
           <button
             onClick={() => scrollToSection("about")}
             className="hover:text-accent dark:hover:text-accent-dark transition-colors duration-200 cursor-pointer"
           >
-            About
+            About Me
           </button>
           <button
             onClick={() => scrollToSection("resume")}

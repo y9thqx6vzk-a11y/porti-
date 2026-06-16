@@ -6,57 +6,54 @@ export default function About() {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
           
-          {/* Left Column - Philosophy / Highlights */}
+          {/* Left Column - Core Principles / Academic Foundation */}
           <div className="lg:col-span-5 flex flex-col justify-start space-y-8 scroll-reveal">
             <div>
               <h2 className="text-xs font-semibold tracking-wider text-accent dark:text-accent-dark uppercase mb-3">
-                Background
+                Philosophy
               </h2>
-              <p className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white tracking-tight">
-                About Me
-              </p>
+              <h3 className="text-3xl font-bold text-slate-900 dark:text-white tracking-tight">
+                Systems-Thinking & Stakeholder Management
+              </h3>
               <div className="mt-4 h-1 w-12 bg-accent dark:bg-accent-dark rounded-full" />
             </div>
 
             <div className="space-y-6 pt-4">
-              <div className="p-5 rounded-2xl border border-slate-100 dark:border-slate-900 bg-slate-50/50 dark:bg-slate-900/20">
-                <h4 className="text-sm font-bold text-slate-900 dark:text-white mb-2">Systems Thinking</h4>
-                <p className="text-sm text-slate-550 dark:text-slate-400 leading-relaxed font-sans">
-                  Approaching development from an operational efficiency perspective. Whether designing API architectures or scaling server loads, I optimize for clarity and resilience.
+              <div className="p-6 rounded-2xl border border-slate-100 dark:border-slate-900 bg-slate-50/50 dark:bg-slate-900/20">
+                <h4 className="text-sm font-bold text-slate-900 dark:text-white mb-2">Systems Architecture</h4>
+                <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed font-sans font-light">
+                  Operational bottlenecks aren&apos;t singular problems to solve. They are indicators of system state. I analyze constraints, design automation steps, and build workflows optimized for scale.
                 </p>
               </div>
 
-              <div className="p-5 rounded-2xl border border-slate-100 dark:border-slate-900 bg-slate-50/50 dark:bg-slate-900/20">
-                <h4 className="text-sm font-bold text-slate-900 dark:text-white mb-2">Mathematical Rigor</h4>
-                <p className="text-sm text-slate-550 dark:text-slate-400 leading-relaxed font-sans">
-                  Deepening my software skills through mathematical principles. I leverage linear algebra, calculus, and discrete mathematics to write optimal algorithms and build robust visual systems.
+              <div className="p-6 rounded-2xl border border-slate-100 dark:border-slate-900 bg-slate-50/50 dark:bg-slate-900/20">
+                <h4 className="text-sm font-bold text-slate-900 dark:text-white mb-2">B.Sc. Mathematics candidate</h4>
+                <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed font-sans font-light">
+                  Studying Mathematics at Ben-Gurion University has trained my mind to abstract complex physical constraints into logical formulas, forming the backbone of my operational workflow strategies.
                 </p>
               </div>
             </div>
           </div>
 
-          {/* Right Column - Personal Statement / Cover Letter */}
-          <div className="lg:col-span-7 flex flex-col justify-center space-y-6 scroll-reveal">
-            <h3 className="text-xl font-semibold text-slate-900 dark:text-slate-100 tracking-tight leading-relaxed">
-              "I truly believe I’d be a great fit for your team. I’m a planner at heart, and finding solutions to complex problems is genuinely what I love doing most."
-            </h3>
+          {/* Right Column - Personal Statement & Bio */}
+          <div className="lg:col-span-7 flex flex-col justify-center space-y-8 scroll-reveal">
+            <h4 className="text-xl font-semibold text-slate-900 dark:text-slate-100 tracking-tight leading-relaxed">
+              &ldquo;As an Operations Manager, I thrive on engineering order out of complexity. I bridge the gap between technical teams, field operators, and executive leadership.&rdquo;
+            </h4>
 
-            <div className="space-y-6 text-slate-600 dark:text-slate-355 text-base leading-relaxed font-sans font-light">
+            <div className="space-y-6 text-slate-650 dark:text-slate-350 text-base leading-relaxed font-sans font-light">
               <p>
-                I am a resourceful and effective Operations and Project Manager who brings to every assignment a unique combination of technological capability, leadership skills, and a deep passion and ability to connect.
+                My foundation in Mathematics equips me with highly analytical, systems-thinking capabilities. I approach operational bottlenecks not just as singular problems to solve, but as complete systems to optimize, automate, and scale.
               </p>
               <p>
-                My strong analytical background as a Mathematics student at Ben-Gurion University of the Negev provides the basis for my ability to understand and use AI tools to build digital solutions and automate workflows. I have demonstrated that I can translate complex logistical challenges into clear processes while ensuring engagement and collaboration across diverse teams.
-              </p>
-              <p>
-                Combine my technical side with actually getting things done on the ground and that is the formula that drives me, and will be the energy and ability I will bring to this role.
+                Beyond data and processes, successful operations rely on people. Leveraging a strong background in group facilitation, I specialize in Stakeholder Management and cross-functional team leadership. I ensure seamless communication and alignment between technical teams, field operators, and executive leadership to drive unified, efficient business outcomes.
               </p>
             </div>
 
             {/* Contact Details */}
-            <div className="pt-6 border-t border-slate-100 dark:border-slate-900 space-y-4">
-              <p className="text-sm font-semibold text-slate-950 dark:text-white uppercase tracking-wider">
-                Let's collaborate
+            <div className="pt-8 border-t border-slate-100 dark:border-slate-900 space-y-4">
+              <p className="text-sm font-semibold text-slate-955 dark:text-white uppercase tracking-wider">
+                Let&apos;s Discuss Operations
               </p>
               <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8 text-sm text-slate-600 dark:text-slate-350">
                 <a

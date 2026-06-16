@@ -13,20 +13,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Eyal Bgr | Software Engineer & Operations Developer Portfolio",
+  title: "Eyal Granot | Data-Driven Operations Manager & Process Architect",
   description:
-    "Explore the personal portfolio of Eyal Bgr, a Full-Stack Developer, Operations Manager, and Mathematics Student building elegant, performant digital systems.",
+    "Explore the professional portfolio of Eyal Granot, a Data-Driven Operations Manager & Process Architect bridging the gap between complex physical logistics and digital automation using AI and system architecture.",
   keywords: [
-    "Eyal Bgr",
+    "Eyal Granot",
     "Portfolio",
-    "Full-Stack Developer",
     "Operations Manager",
-    "Mathematics Student",
-    "React",
-    "Next.js",
-    "TypeScript",
+    "Process Architect",
+    "Data-Driven Operations",
+    "System Architecture",
+    "Logistics Automation",
+    "Ben-Gurion University Mathematics",
+    "B2B Operations",
   ],
-  authors: [{ name: "Eyal Bgr" }],
+  authors: [{ name: "Eyal Granot" }],
 };
 
 export default function RootLayout({

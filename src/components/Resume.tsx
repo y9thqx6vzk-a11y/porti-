@@ -12,75 +12,83 @@ interface TimelineItem {
 const EXPERIENCES: TimelineItem[] = [
   {
     year: "Oct 2025 - Present",
-    role: "Operations & Project Manager",
-    organization: "Independent Initiative",
+    role: "End-to-End Product Operations",
+    organization: "Smart Mobility Prototype (Tremp_app)",
     details: [
-      "Spearheading and overseeing production and logistics for a customized, 10-day group expedition to Sri Lanka (Summer 2026).",
-      "Managing complex B2B negotiations and maintaining daily coordination with international vendors in English.",
-      "Applying creative logistical solutions, including travel arrangements, detailed budgets, and orchestrating Kosher food supply chains within 5-star hotel operations.",
+      "Architected a scalable, tech-enabled platform to manage complex carpool logistics and optimize daily transit operations for students and soldiers.",
+      "Led product operations from concept to execution, integrating LLMs and AI workflows to map user behaviors and automate system routing.",
+      "Designed the core database structure and coordinated system integrations to automate route matching and dispatch functions.",
     ],
   },
   {
     year: "Oct 2025 - Present",
-    role: "Tech & AI-Assisted Developer",
-    organization: "Freelance & Independent Projects",
+    role: "Cross-Border Project Manager & Supply Chain Lead",
+    organization: "International Group Expeditions",
     details: [
-      "AI-Driven app development: Building a prototype for 'Tremp_app', a smart mobility carpool application for student and soldier logistics.",
-      "Workflow automation: Designing data-driven platforms and process automation workflows, bridging the gap between operational needs and technical execution.",
+      "Directing end-to-end supply chain pipelines and B2B logistics for a large-scale expedition to Sri Lanka (Q3 2026 Rollout).",
+      "Managing international vendor contracts, B2B negotiations, and cross-border budgets under strict deadline constraints.",
+      "Engineered specialized supply workflows in complex international environments, including establishing local kosher logistics at global 5-star hotels.",
     ],
   },
   {
     year: "Aug 2024 - Present",
     role: "Tour Guide & Group Facilitator",
-    organization: "Masa Israeli & Similar Companies",
+    organization: "Masa Israeli & Educational Organizations",
     details: [
-      "Developing and implementing educational plans while handling real-time crisis management and scheduling.",
-      "Taking full ownership of each experience, forging deep connections with colleagues and participants.",
-      "Facilitating group dynamics with a focus on safety, team-building, and creating inclusive environments.",
+      "Facilitating group dynamics with a focus on cross-functional team leadership, alignment, and communication.",
+      "Delivering educational content and managing logistics/crisis containment in real-time under volatile field conditions.",
     ],
   },
   {
     year: "Apr 2023 - Apr 2024",
-    role: "Logistics & Operations Manager",
-    organization: "IDF Paratroopers",
+    role: "Logistics Command (R\"sap)",
+    organization: "IDF Paratroopers Command",
     details: [
-      "Responsible for supply chains and daily operations for hundreds of soldiers in high-stress, unpredictable environments.",
-      "Directed logistics for special event days involving up to 3,000 participants.",
-      "Managed resource allocation, inventory, and strategic contingency planning as a Squad Commander.",
+      "Directed high-scale supply chains, tactical material flow, and daily operations for 140+ personnel in high-stress environments.",
+      "Orchestrated logistics, vendor coordination, and operations for large-scale exercises accommodating up to 3,000 participants.",
+      "Engineered fail-safe contingency plans and inventory control protocols, ensuring continuous flow with zero downtime.",
     ],
   },
 ];
 
 const EDUCATION = [
   {
-    title: "B.Sc. in Mathematics",
-    institution: "Ben-Gurion University of the Negev (1st Year Student)",
+    title: "B.Sc. in Mathematics (Candidate)",
+    institution: "Ben-Gurion University of the Negev",
+  },
+  {
+    title: "Certified Group Facilitator & Guide",
+    institution: "Eshkolot College & Masa Israeli",
   },
   {
     title: "Certified Yoga Instructor",
-    institution: "Vinyasa Yogashala",
-  },
-  {
-    title: "Certified Tour Guide",
-    institution: "Eshkolot College & Masa Israeli",
+    institution: "Vinyasa Yogashala (India)",
   },
 ];
 
 const SKILLS = {
-  "Operations & Logistics": [
-    "Project Planning",
-    "B2B Communication",
-    "Cross-Functional Leadership",
-    "Crisis Management",
+  "Operations & Supply Chain": [
+    "Supply Chain Management",
+    "B2B Negotiations",
+    "Resource Allocation",
+    "Crisis Operations",
+    "GANTT & Project Budgets",
   ],
-  Technology: [
-    "AI-Assisted Development (Gemini/ChatGPT)",
+  "Process Architecture & Tech": [
+    "System Design & Logic",
     "Process Automation",
-    "Tech Integration",
+    "AI Workflow Integrations (LLMs)",
+    "Data-Driven Workflows",
+  ],
+  "Leadership & Communication": [
+    "Stakeholder Management",
+    "Group Facilitation",
+    "Cross-Functional Teamwork",
+    "Contingency Planning",
   ],
   Languages: [
     "Hebrew (Native)",
-    "English (Fluent - Business & Conversational)",
+    "English (Fluent - Business level)",
   ],
 };
 
@@ -137,7 +145,7 @@ export default function Resume() {
         <div className="hidden print:block mb-10 border-b pb-6 border-slate-300">
           <h1 className="text-3xl font-bold text-black tracking-tight mb-2">Eyal Granot</h1>
           <p className="text-slate-700 text-sm font-medium">
-            Operations & Project Manager • Tech & AI-Assisted Developer • Mathematics Student
+            Data-Driven Operations Manager & Process Architect
           </p>
           <div className="flex flex-wrap gap-x-6 gap-y-1 mt-3 text-xs text-slate-500 font-sans">
             <span>Phone: 054-3510664</span>

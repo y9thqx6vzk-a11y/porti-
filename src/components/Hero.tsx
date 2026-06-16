@@ -3,9 +3,9 @@
 import { useEffect, useState } from "react";
 
 const ROLES = [
-  "Operations & Project Manager",
-  "Tech & AI-Assisted Developer",
-  "Mathematics Student",
+  "Operations Manager & Process Architect",
+  "Systems-Thinking Operations Leader",
+  "Logistics Command & Supply Chain Expert",
 ];
 
 export default function Hero() {
@@ -40,14 +40,14 @@ export default function Hero() {
         {/* Intro Badge */}
         <div className="inline-flex items-center gap-2 px-3 py-1 text-xs font-medium bg-accent/10 text-accent dark:bg-accent-dark/10 dark:text-accent-dark rounded-full border border-accent/20 dark:border-accent-dark/20 animate-fade-in">
           <span className="w-1.5 h-1.5 rounded-full bg-accent dark:bg-accent-dark animate-ping" />
-          Active Project Workspace
+          Data-Driven Operations & Process Design
         </div>
 
         {/* Hero Title */}
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-tight font-sans">
           Eyal Granot <br />
           <span className="bg-gradient-to-r from-accent to-violet-500 dark:from-accent-dark dark:to-violet-400 bg-clip-text text-transparent">
-            Operations & AI Solutions
+            Data-Driven Operations Manager <br className="hidden sm:inline" /> & Process Architect
           </span>
         </h1>
 
@@ -58,13 +58,13 @@ export default function Hero() {
               fade ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2"
             }`}
           >
-            I am an <span className="text-slate-900 dark:text-white font-semibold">{ROLES[currentRoleIndex]}</span>
+            I am a <span className="text-slate-900 dark:text-white font-semibold">{ROLES[currentRoleIndex]}</span>
           </p>
         </div>
 
         {/* Short Paragraph Description */}
-        <p className="max-w-2xl mx-auto text-base md:text-lg text-slate-500 dark:text-slate-400 leading-relaxed font-sans">
-          Resourceful Operations and Project Manager combining a strong mathematical background, cross-functional leadership, and AI-engineered workflow automations to solve complex challenges.
+        <p className="max-w-3xl mx-auto text-base md:text-lg text-slate-500 dark:text-slate-400 leading-relaxed font-sans font-light">
+          I bridge the gap between complex physical logistics and digital automation. By leveraging AI and system architecture, I transform operational bottlenecks into scalable workflows, ensuring zero downtime and maximum efficiency.
         </p>
 
         {/* Call-to-actions */}
@@ -73,14 +73,14 @@ export default function Hero() {
             onClick={() => scrollToSection("projects")}
             className="w-full sm:w-auto px-8 py-3.5 text-sm font-semibold text-white bg-slate-900 hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-950 dark:hover:bg-slate-200 rounded-xl transition-all duration-200 cursor-pointer shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
           >
-            View Projects
+            View Case Studies
           </button>
           
           <button
             onClick={() => scrollToSection("about")}
             className="w-full sm:w-auto px-8 py-3.5 text-sm font-semibold text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-900 rounded-xl transition-all duration-200 cursor-pointer transform hover:-translate-y-0.5"
           >
-            Contact Me
+            Let&apos;s Talk Operations
           </button>
         </div>
       </div>

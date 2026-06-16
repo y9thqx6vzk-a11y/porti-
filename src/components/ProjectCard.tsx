@@ -2,11 +2,15 @@ import React from "react";
 
 export interface Project {
   title: string;
-  description: string;
+  category: string;
+  metric?: string;
+  situation: string;
+  task: string;
+  action: string;
+  result: string;
   techStack: string[];
   githubUrl?: string;
   demoUrl?: string;
-  imageUrl?: string; // Opt to display beautiful abstract card pattern if no image
 }
 
 interface ProjectCardProps {
@@ -14,40 +18,93 @@ interface ProjectCardProps {
 }
 
 export default function ProjectCard({ project }: ProjectCardProps) {
-  const { title, description, techStack, githubUrl, demoUrl } = project;
+  const {
+    title,
+    category,
+    metric,
+    situation,
+    task,
+    action,
+    result,
+    techStack,
+    githubUrl,
+    demoUrl,
+  } = project;
 
   return (
-    <div className="group relative flex flex-col justify-between p-6 rounded-2xl border border-slate-200/60 dark:border-slate-800/60 bg-white dark:bg-slate-900/50 hover:bg-slate-50/50 dark:hover:bg-slate-900 transition-all duration-300 shadow-xs hover:shadow-lg hover:-translate-y-1 scroll-reveal">
+    <div className="group relative flex flex-col justify-between p-6 rounded-2xl border border-slate-200/60 dark:border-slate-800/60 bg-white dark:bg-slate-900/40 hover:bg-slate-50/50 dark:hover:bg-slate-900/60 transition-all duration-300 shadow-sm hover:shadow-lg hover:-translate-y-1 scroll-reveal">
       {/* Decorative hover border glow */}
-      <div className="absolute inset-0 rounded-2xl border border-accent/0 group-hover:border-accent/30 dark:group-hover:border-accent-dark/30 pointer-events-none transition-all duration-300" />
+      <div className="absolute inset-0 rounded-2xl border border-accent/0 group-hover:border-accent/20 dark:group-hover:border-accent-dark/20 pointer-events-none transition-all duration-300" />
 
       <div>
-        {/* Project Visual Accent (abstract gradient) */}
-        <div className="w-full h-36 mb-6 rounded-xl bg-gradient-to-br from-slate-100 to-slate-200/50 dark:from-slate-800 dark:to-slate-900/50 flex items-center justify-center overflow-hidden relative border border-slate-100 dark:border-slate-800/30">
-          <div className="absolute inset-0 bg-gradient-to-tr from-accent/10 to-violet-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-          <span className="text-sm font-semibold text-slate-400 dark:text-slate-650 group-hover:text-accent dark:group-hover:text-accent-dark tracking-wider transition-colors duration-300">
-            {title.toUpperCase()}
+        {/* Category & High-impact metric */}
+        <div className="flex justify-between items-center mb-4 pb-4 border-b border-slate-100 dark:border-slate-800/50">
+          <span className="text-[11px] font-bold tracking-wider text-accent dark:text-accent-dark uppercase">
+            {category}
           </span>
+          {metric && (
+            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-500/10 text-emerald-600 dark:bg-emerald-400/10 dark:text-emerald-450 border border-emerald-500/20 dark:border-emerald-400/20">
+              {metric}
+            </span>
+          )}
         </div>
 
-        {/* Title */}
-        <h3 className="text-xl font-bold text-slate-900 dark:text-white tracking-tight mb-2 group-hover:text-accent dark:group-hover:text-accent-dark transition-colors duration-200">
+        {/* Project Title */}
+        <h3 className="text-lg font-bold text-slate-900 dark:text-white tracking-tight mb-5 group-hover:text-accent dark:group-hover:text-accent-dark transition-colors duration-200">
           {title}
         </h3>
 
-        {/* Description */}
-        <p className="text-sm text-slate-500 dark:text-slate-400 mb-6 leading-relaxed font-sans line-clamp-3">
-          {description}
-        </p>
+        {/* STAR Structure */}
+        <div className="space-y-4 mb-6 text-xs sm:text-sm">
+          {/* Situation */}
+          <div className="grid grid-cols-[64px_1fr] gap-x-3 items-start">
+            <span className="font-bold text-slate-400 dark:text-slate-500 select-none uppercase text-[9px] tracking-wider bg-slate-100 dark:bg-slate-800/50 px-1.5 py-0.5 rounded-md text-center">
+              Situation
+            </span>
+            <p className="text-slate-600 dark:text-slate-400 leading-relaxed font-sans font-light">
+              {situation}
+            </p>
+          </div>
+
+          {/* Task */}
+          <div className="grid grid-cols-[64px_1fr] gap-x-3 items-start">
+            <span className="font-bold text-slate-400 dark:text-slate-500 select-none uppercase text-[9px] tracking-wider bg-slate-100 dark:bg-slate-800/50 px-1.5 py-0.5 rounded-md text-center">
+              Task
+            </span>
+            <p className="text-slate-600 dark:text-slate-400 leading-relaxed font-sans font-light">
+              {task}
+            </p>
+          </div>
+
+          {/* Action */}
+          <div className="grid grid-cols-[64px_1fr] gap-x-3 items-start">
+            <span className="font-bold text-accent dark:text-accent-dark select-none uppercase text-[9px] tracking-wider bg-accent/10 dark:bg-accent-dark/10 px-1.5 py-0.5 rounded-md text-center">
+              Action
+            </span>
+            <p className="text-slate-600 dark:text-slate-400 leading-relaxed font-sans font-light">
+              {action}
+            </p>
+          </div>
+
+          {/* Result */}
+          <div className="grid grid-cols-[64px_1fr] gap-x-3 items-start">
+            <span className="font-bold text-emerald-600 dark:text-emerald-400 select-none uppercase text-[9px] tracking-wider bg-emerald-500/10 dark:bg-emerald-400/10 px-1.5 py-0.5 rounded-md text-center">
+              Result
+            </span>
+            <p className="text-slate-800 dark:text-slate-200 font-medium leading-relaxed font-sans">
+              {result}
+            </p>
+          </div>
+        </div>
       </div>
 
       <div>
         {/* Technology stack */}
-        <div className="flex flex-wrap gap-2 mb-6">
+        <div className="flex flex-wrap gap-1.5 mb-5 border-t border-slate-100 dark:border-slate-850 pt-4">
           {techStack.map((tech) => (
             <span
               key={tech}
-              className="px-2.5 py-0.5 text-xs font-semibold text-slate-600 dark:text-slate-350 bg-slate-100 dark:bg-slate-800/50 rounded-md transition-colors"
+              className="px-2 py-0.5 text-[10px] font-semibold text-slate-650 dark:text-slate-350 bg-slate-100 dark:bg-slate-800/50 rounded-md transition-colors"
             >
               {tech}
             </span>
@@ -55,17 +112,17 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         </div>
 
         {/* Links */}
-        <div className="flex items-center gap-4 text-sm font-semibold">
+        <div className="flex items-center gap-4 text-xs font-semibold">
           {githubUrl && (
             <a
               href={githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors duration-200"
+              className="inline-flex items-center text-slate-550 dark:text-slate-350 hover:text-slate-900 dark:hover:text-white transition-colors duration-200"
             >
               {/* GitHub SVG */}
               <svg
-                className="w-4 h-4 mr-2"
+                className="w-3.5 h-3.5 mr-1.5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -76,7 +133,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                   clipRule="evenodd"
                 />
               </svg>
-              Code
+              Code Repo
             </a>
           )}
 
@@ -94,7 +151,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                 viewBox="0 0 24 24"
                 strokeWidth={2}
                 stroke="currentColor"
-                className="w-4 h-4 mr-1.5"
+                className="w-3.5 h-3.5 mr-1"
               >
                 <path
                   strokeLinecap="round"
@@ -102,7 +159,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                   d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
                 />
               </svg>
-              Live Demo
+              Live Site
             </a>
           )}
         </div>
