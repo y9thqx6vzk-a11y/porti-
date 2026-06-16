@@ -38,28 +38,25 @@ export default function About() {
           {/* Right Column - Personal Statement / Cover Letter */}
           <div className="lg:col-span-7 flex flex-col justify-center space-y-6 scroll-reveal">
             <h3 className="text-xl font-semibold text-slate-900 dark:text-slate-100 tracking-tight leading-relaxed">
-              "Simple is hard. It requires peeling away layers of complexity to expose the core essence of a product."
+              "I truly believe I’d be a great fit for your team. I’m a planner at heart, and finding solutions to complex problems is genuinely what I love doing most."
             </h3>
 
-            <div className="space-y-6 text-slate-600 dark:text-slate-350 text-base leading-relaxed font-sans font-light">
+            <div className="space-y-6 text-slate-600 dark:text-slate-355 text-base leading-relaxed font-sans font-light">
               <p>
-                Hello! I am a software engineer and designer who builds highly functional and beautiful digital products. My professional journey lies at the intersection of full-stack engineering, operations coordination, and mathematics.
+                I am a resourceful and effective Operations and Project Manager who brings to every assignment a unique combination of technological capability, leadership skills, and a deep passion and ability to connect.
               </p>
               <p>
-                I thrive on solving complex, multi-dimensional problems. From building scalable backend architectures in Node.js to refining client interactions with React and Tailwind CSS, I approach coding as a craft. I believe software should not only function flawlessly but should also delight the user with clean typography, plenty of workspace, and responsive motion design.
+                My strong analytical background as a Mathematics student at Ben-Gurion University of the Negev provides the basis for my ability to understand and use AI tools to build digital solutions and automate workflows. I have demonstrated that I can translate complex logistical challenges into clear processes while ensuring engagement and collaboration across diverse teams.
               </p>
               <p>
-                My background in operations management has taught me how to coordinate teams, manage logistics, and construct workflows that maximize output. I translate these operational lessons directly into my code structure, prioritizing modular components, rigorous types, and direct deployment workflows.
-              </p>
-              <p>
-                Currently, I am pursuing my studies in Mathematics, which fuels my passion for computer graphics, spatial mapping, and algorithmic efficiency. I am excited to bring this unique blend of skills to a forward-thinking engineering team.
+                Combine my technical side with actually getting things done on the ground and that is the formula that drives me, and will be the energy and ability I will bring to this role.
               </p>
             </div>
 
             {/* Quick Contact Link */}
             <div className="pt-6">
               <a
-                href="mailto:contact@example.com"
+                href="mailto:eyalbgr@gmail.com"
                 className="inline-flex items-center text-sm font-semibold text-accent dark:text-accent-dark hover:text-accent-hover dark:hover:text-indigo-300 transition-colors"
               >
                 Let's collaborate

@@ -9,7 +9,7 @@ export default function Footer() {
         
         {/* Left - Copyright */}
         <p className="text-sm text-slate-500 dark:text-slate-400 font-sans">
-          &copy; {currentYear} Eyal Bgr. All rights reserved. Built with Next.js & Tailwind.
+          &copy; {currentYear} Eyal Granot. All rights reserved. Built with Next.js & Tailwind.
         </p>
 
         {/* Right - Social Links */}
@@ -23,7 +23,7 @@ export default function Footer() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/%D7%90%D7%99%D7%9C-%D7%92%D7%A8%D7%A0%D7%95%D7%AA-b51957415/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-550 dark:text-slate-400 hover:text-accent dark:hover:text-accent-dark text-sm font-semibold transition-colors duration-200"
@@ -31,7 +31,7 @@ export default function Footer() {
             LinkedIn
           </a>
           <a
-            href="mailto:contact@example.com"
+            href="mailto:eyalbgr@gmail.com"
             className="text-slate-550 dark:text-slate-400 hover:text-accent dark:hover:text-accent-dark text-sm font-semibold transition-colors duration-200"
           >
             Email

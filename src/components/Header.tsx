@@ -40,7 +40,7 @@ export default function Header() {
             href="#"
             className="text-lg font-bold bg-gradient-to-r from-slate-900 to-slate-700 dark:from-slate-100 dark:to-slate-300 bg-clip-text text-transparent tracking-tight font-sans hover:opacity-80 transition-opacity"
           >
-            Portfolio
+            Eyal Granot
           </a>
         </div>
 

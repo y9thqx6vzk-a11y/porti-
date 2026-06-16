@@ -3,28 +3,25 @@ import ProjectCard, { Project } from "./ProjectCard";
 
 const MOCK_PROJECTS: Project[] = [
   {
-    title: "Tremp_app",
+    title: "Tremp_app | AI-Driven Mobility Prototype",
     description:
-      "A real-time carpooling and ridesharing platform tailored to connect commuters. Built with live geolocation updates, smart route matching algorithms, and instantaneous reservation notifications to make shared travel efficient and reliable.",
-    techStack: ["React", "TypeScript", "Node.js", "Express", "Socket.io", "PostgreSQL"],
-    githubUrl: "https://github.com/example/tremp-app",
-    demoUrl: "https://tremp-app.example.com",
+      "An end-to-end smart mobility application prototype for student and soldier carpool logistics. Built database schemas, custom routing vectors, and integration workflows utilizing advanced prompt sequences.",
+    techStack: ["Next.js", "React", "TypeScript", "Node.js", "Express", "PostgreSQL", "LLM APIs"],
+    githubUrl: "https://github.com/y9thqx6vzk-a11y/tremp_app.git",
   },
   {
-    title: "Triangulation Design Studio",
+    title: "Sri Lanka Expedition | International Project Management",
     description:
-      "A visual, high-performance web studio enabling users to upload imagery and generate beautiful vector-based triangulation (low-poly) designs. Supports custom mesh adjustments, edge detection configurations, and export formats (SVG, PNG).",
-    techStack: ["Next.js", "React", "TypeScript", "HTML5 Canvas", "Tailwind CSS"],
-    githubUrl: "https://github.com/example/triangulation-studio",
-    demoUrl: "https://triangulate.example.com",
+      "End-to-end production, legal framework, and digital infrastructure for a 10-day group tour. Engineered registration automation pipelines to streamline workflow, and leveraged complex prompts to draft legal travel contracts.",
+    techStack: ["React", "Vercel", "Legal Design", "B2B Logistics", "Process Automation"],
+    githubUrl: "https://github.com/y9thqx6vzk-a11y/savtot-sri-lanka-2.git",
+    demoUrl: "https://savtot-sri-lanka-2.vercel.app",
   },
   {
-    title: "Yachad Community",
+    title: "Military Logistics & Field Operations | IDF Paratroopers",
     description:
-      "A community coordination hub that powers mutual-aid initiatives, localized volunteering, shared tool lending libraries, and event planning. Designed to foster local resilience and connection through real-time communication.",
-    techStack: ["React", "TypeScript", "Firebase (Auth/Store)", "Tailwind CSS", "Algolia"],
-    githubUrl: "https://github.com/example/yachad-community",
-    demoUrl: "https://yachad.example.com",
+      "Directed supply chain pipelines and daily logistics for 140+ soldiers in intense field environments. Planned large-scale operational operations for a military evaluation event of 3,000 participants.",
+    techStack: ["Resource Allocation", "Squad Leadership", "Strategic Planning", "Crisis Operations"],
   },
 ];
 

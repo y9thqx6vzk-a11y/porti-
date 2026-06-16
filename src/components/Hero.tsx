@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 
 const ROLES = [
-  "Full-Stack Developer",
-  "Operations Manager",
+  "Operations & Project Manager",
+  "Tech & AI-Assisted Developer",
   "Mathematics Student",
 ];
 
@@ -40,14 +40,14 @@ export default function Hero() {
         {/* Intro Badge */}
         <div className="inline-flex items-center gap-2 px-3 py-1 text-xs font-medium bg-accent/10 text-accent dark:bg-accent-dark/10 dark:text-accent-dark rounded-full border border-accent/20 dark:border-accent-dark/20 animate-fade-in">
           <span className="w-1.5 h-1.5 rounded-full bg-accent dark:bg-accent-dark animate-ping" />
-          Open to New Opportunities
+          Active Project Workspace
         </div>
 
         {/* Hero Title */}
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-tight font-sans">
-          Designing & Engineering the <br />
+          Eyal Granot <br />
           <span className="bg-gradient-to-r from-accent to-violet-500 dark:from-accent-dark dark:to-violet-400 bg-clip-text text-transparent">
-            Future of Software
+            Operations & AI Solutions
           </span>
         </h1>
 
@@ -58,13 +58,13 @@ export default function Hero() {
               fade ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2"
             }`}
           >
-            I am a <span className="text-slate-900 dark:text-white font-semibold">{ROLES[currentRoleIndex]}</span>
+            I am an <span className="text-slate-900 dark:text-white font-semibold">{ROLES[currentRoleIndex]}</span>
           </p>
         </div>
 
         {/* Short Paragraph Description */}
-        <p className="max-w-xl mx-auto text-base md:text-lg text-slate-500 dark:text-slate-400 leading-relaxed font-sans">
-          An operations-minded engineer blending deep mathematical principles with full-stack execution to deliver elegant, production-ready digital products.
+        <p className="max-w-2xl mx-auto text-base md:text-lg text-slate-500 dark:text-slate-400 leading-relaxed font-sans">
+          Resourceful Operations and Project Manager combining a strong mathematical background, cross-functional leadership, and AI-engineered workflow automations to solve complex challenges.
         </p>
 
         {/* Call-to-actions */}
