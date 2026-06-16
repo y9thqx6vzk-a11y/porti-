@@ -80,24 +80,19 @@ export default function About() {
                   eyalbgr@gmail.com
                 </a>
                 <a
-                  href="tel:0543510664"
-                  className="inline-flex items-center hover:text-accent dark:hover:text-accent-dark transition-colors duration-200"
+                  href="https://wa.me/972543510664"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center hover:text-emerald-500 dark:hover:text-emerald-450 transition-colors duration-200"
                 >
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
                     viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
+                    fill="currentColor"
                     className="w-4 h-4 mr-2 text-slate-400 dark:text-slate-500"
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M2.25 6.622c0-1.096.845-1.996 1.936-2.062a3.483 3.483 0 0 1 5.372 3.161l-.037.288a3.75 3.75 0 0 0 1.25 3.16l2.128 1.916a3.75 3.75 0 0 0 3.16 1.25l.288-.037a3.483 3.483 0 0 1 3.161 5.372c-.066 1.091-.966 1.936-2.062 1.936-5.483 0-9.878-4.395-9.878-9.878V6.622Z"
-                    />
+                    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.625 1.451 5.403.002 9.803-4.394 9.806-9.799.002-2.593-1.002-5.031-2.828-6.858-1.826-1.826-4.265-2.83-6.861-2.832-5.409 0-9.81 4.402-9.813 9.808 0 1.52.418 3.008 1.21 4.307L1.58 20.16l4.067-1.006z" />
                   </svg>
-                  054-3510664
+                  054-3510664 (WhatsApp)
                 </a>
               </div>
             </div>
