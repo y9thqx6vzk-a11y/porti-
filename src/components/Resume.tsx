@@ -15,7 +15,7 @@ const EXPERIENCES: TimelineItem[] = [
     role: "Operations & Project Manager",
     organization: "Independent Initiative",
     details: [
-      "Managed end-to-end operations and production for a customized 10-day expedition to Sri Lanka, handling all itinerary, accommodations, and travel logistics for clients aged 40 to 65.",
+      "Managed end-to-end operations and production for a customized 10-day boutique expedition to Sri Lanka, handling all itinerary, accommodations, and travel logistics for a group of 10-20 clients aged 40 to 65.",
       "Built and managed strong B2B partnerships, leading daily coordination with international vendors in English to ensure smooth ground operations.",
       "Negotiated unique agreements with 5-star hotels to secure exclusive kitchen access, successfully directing strict Kosher and vegetarian food logistics.",
       "Provided dedicated client support and handled all project administration, including contracts, budget management, branded merchandise, and solving complex financial and tax issues.",
@@ -38,9 +38,9 @@ const EXPERIENCES: TimelineItem[] = [
     role: "Logistics & Operations Manager",
     organization: "IDF",
     details: [
-      "Managed comprehensive logistics and strategic planning for 140 personnel under extreme operational pressure.",
+      "Managed comprehensive daily logistics and strategic planning for 140 personnel under extreme operational pressure.",
       "Executed rapid site establishment and sustained long-term operations in austere environments.",
-      "Led complex event logistics for up to 3000 participants, including full multi-day accommodation planning.",
+      "Led complex, one-off event logistics for up to 3000 participants (typically 2-day events), including full accommodation planning.",
       "Handled external vendor management, procurement, and cross-functional partnerships.",
       "Organized specialized corporate events and functions to support team morale and organizational goals."
     ]
@@ -159,7 +159,7 @@ export default function Resume() {
                 </h3>
               </div>
               <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-relaxed font-sans font-light">
-                While I haven't managed a high-tech office, I hope you'll find my background unique and highly relevant for your role. My true passion is solving problems and connecting to people. I help find simple, creative solutions to support my team, drawing on strong international B2B partnerships (such as managing a 10-day expedition to Sri Lanka) and rigorous military planning (leading logistics for 140+ soldiers). I combine a systems-focused, analytical mindset (B.Sc. in Mathematics) with real-world technical workflow automation (AI tools). I am an independent initiator transitioning to part-time studies to dedicate 100% of my energy to a full-time operations role, seeking stability, a strong team, and a place to grow.
+                While I haven't managed a high-tech office, I hope you'll find my background unique and highly relevant for your role. My true passion is solving problems and connecting to people. I help find simple, creative solutions to support my team, drawing on strong international B2B partnerships (such as managing a 10-day boutique expedition to Sri Lanka for 10-20 clients) and rigorous military planning (leading daily logistics for 140 soldiers and events for up to 3,000 participants). I combine a systems-focused, analytical mindset (B.Sc. in Mathematics) with real-world technical workflow automation (AI tools). I am an independent initiator transitioning to part-time studies to dedicate 100% of my energy to a full-time operations role, seeking stability, a strong team, and a place to grow.
               </p>
             </div>
 

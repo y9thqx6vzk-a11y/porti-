@@ -9,7 +9,7 @@ const MOCK_PROJECTS: Project[] = [
     challenge: "Synchronizing high-end logistics and vendor operations across multiple international time zones, cultures, and regulatory constraints under strict timeline limitations.",
     execution: "Led B2B vendor management, cross-border negotiations, and client delivery workflows. Spearheaded international supply chain stabilization, resolving on-site crises and establishing bespoke food services inside global 5-star hotels.",
     techAutomation: "Built and deployed automated tracking pipelines and GANTT-driven dashboard updates to monitor budget variances and schedule checkpoints, reducing cross-border coordination delays.",
-    impact: "Successfully stabilized cross-border operations, managed international budgets, and established a resilient supply chain framework for over 3,000 participant touchpoints.",
+    impact: "Successfully stabilized operations, managed international budgets, and established a resilient supply chain framework for a customized 10-day boutique expedition of 10-20 clients.",
     techStack: ["B2B Negotiations", "GANTT Pipelines", "Supply Chain", "Budget Controls", "Process Design"],
     githubUrl: "https://github.com/y9thqx6vzk-a11y/savtot-sri-lanka-2.git",
     demoUrl: "https://savtot-sri-lanka-2.vercel.app",
@@ -21,7 +21,7 @@ const MOCK_PROJECTS: Project[] = [
     challenge: "Providing fail-safe operational support and critical supply line management for rapid-deployment combat units in volatile, unpredictable, and high-stress field conditions.",
     execution: "Directed daily tactical operations and resource allocations, coordinating cross-functional logistics across multiple military units and external supply organizations.",
     techAutomation: "Designed database systems to log inventory movement and automated logistics dispatch queues to ensure instant operational responsiveness.",
-    impact: "Managed critical logistics for 140+ personnel, coordinated operations for up to 3,000 participants, and maintained zero downtime during urgent deployments.",
+    impact: "Managed daily logistics for 140 personnel and orchestrated large-scale, multi-day events for up to 3,000 participants with zero downtime.",
     techStack: ["Resource Allocation", "Crisis Management", "Inventory Controls", "Database Design", "Leadership"],
   },
   {
