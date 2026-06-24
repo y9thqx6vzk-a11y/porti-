@@ -45,15 +45,18 @@ export default function About() {
           {/* Right Column - Personal Statement & Bio */}
           <div className="lg:col-span-7 flex flex-col justify-center space-y-8 scroll-reveal">
             <h4 className="text-xl font-semibold text-slate-900 dark:text-slate-100 tracking-tight leading-relaxed">
-              "I am an Operations and Project Manager with a deep passion and natural talent for problem-solving. My core strength lies in translating complex visions into clear, practical steps and executing them seamlessly alongside the team."
+              "While I haven't managed a high-tech office, I hope you'll keep reading. You will find my background unique and highly relevant for your role. My true passion is solving problems and connecting to people."
             </h4>
 
             <div className="space-y-6 text-slate-650 dark:text-slate-350 text-base leading-relaxed font-sans font-light">
               <p>
-                My analytical mindset, which led me to study Mathematics at Ben-Gurion University of the Negev, drives me to simplify workflows and integrate AI tools to optimize operational efficiency. Whether coordinating international B2B relations or navigating sudden crises, I bring calm, structured execution. To fully dedicate my energy to contributing to a welcoming tech operations team, I am transitioning to part-time studies.
+                I help find simple, creative solutions to support my team. A key part of this is building strong international B2B partnerships. For example, collaborating with a local travel agent for my current project, a 10-day expedition to Sri Lanka, required building absolute trust while ensuring standards never dropped. This approach helped me navigate complex logistical and financial challenges, such as securing 100% kosher food in a country where seafood and dairy are standard breakfast fare, and navigating creative tax solutions to manage high upfront hotel expenses for our small business.
               </p>
               <p>
-                Beyond data and processes, successful operations rely on people. As a certified group facilitator, I value authentic human connection and straightforward communication. I leverage high emotional intelligence (EQ) to manage group dynamics, drive alignment, and coordinate cross-functional collaborations between technical developers, field operators, and executive leadership.
+                I have always loved envisioning the full picture and translating it into practical steps, an analytical tendency that also led me to study Mathematics at Ben-Gurion University of the Negev. In the military, planning operations for over 140 soldiers, I learned the critical value of meticulous planning. I dive into the smallest details, from securing field supplies in the middle of nowhere to designing our project website.
+              </p>
+              <p>
+                I deeply value the professionalism of the tech industry, and AI is integral to my workflow, though I am highly mindful of maintaining genuine authenticity. I am an independent initiator who is transitioning my studies to part-time to fully dive into an operations team where I can learn, grow, and contribute. I am seeking stability, great people, and a place to collaborate.
               </p>
             </div>
 

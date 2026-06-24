@@ -13,17 +13,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Eyal Granot | Data-Driven Operations Manager & Process Architect",
+  title: "Eyal Granot | Technical Operations & Project Manager",
   description:
-    "Explore the professional portfolio of Eyal Granot, a Data-Driven Operations Manager & Process Architect bridging the gap between complex physical logistics and digital automation using AI and system architecture.",
+    "Explore the professional portfolio of Eyal Granot, a Technical Operations & Project Manager bridging the gap between complex logistical operations and technical execution using AI and workflow automation.",
   keywords: [
     "Eyal Granot",
     "Portfolio",
-    "Operations Manager",
-    "Process Architect",
-    "Data-Driven Operations",
-    "System Architecture",
-    "Logistics Automation",
+    "Technical Operations Manager",
+    "Technical Project Manager",
+    "Implementation Specialist",
+    "Operations & Process Developer",
     "Ben-Gurion University Mathematics",
     "B2B Operations",
   ],
