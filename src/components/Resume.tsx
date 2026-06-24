@@ -12,53 +12,48 @@ interface TimelineItem {
 const EXPERIENCES: TimelineItem[] = [
   {
     year: "Oct 2025 - Present",
-    role: "Product Operations Manager (AI Automations)",
-    organization: "Smart Mobility Prototype (Tremp_app)",
+    role: "Operations & Project Manager",
+    organization: "Independent Initiative",
     details: [
-      "Leading end-to-end product operations from concept validation to live prototype execution, coordinating cross-functional technical workflows.",
-      "Integrating advanced LLMs and automation tools to parse user requests, map transportation corridors, and automate route dispatch logic.",
-      "Designing the core system architecture and database structures to streamline matching speed from hours to real-time seconds.",
-    ],
-  },
-  {
-    year: "Oct 2025 - Present",
-    role: "Technical Project & Supply Chain Manager",
-    organization: "International Group Expeditions",
-    details: [
-      "Directing end-to-end supply chain logistics and B2B negotiations for large-scale international group expeditions (Q3 2026 Rollout).",
-      "Managing international vendor contracts, cross-border operations budgets, and timeline checkpoints under tight operational schedules.",
-      "Orchestrating complex, hyper-specific logistical solutions in remote regions, including establishing specialized local supply chains at 5-star hotels.",
-    ],
+      "Managed end-to-end operations and production for a customized 10-day expedition to Sri Lanka, handling all itinerary, accommodations, and travel logistics for clients aged 40 to 65.",
+      "Built and managed strong B2B partnerships, leading daily coordination with international vendors in English to ensure smooth ground operations.",
+      "Negotiated unique agreements with 5-star hotels to secure exclusive kitchen access, successfully directing strict Kosher and vegetarian food logistics.",
+      "Provided dedicated client support and handled all project administration, including contracts, budget management, branded merchandise, and solving complex financial and tax issues.",
+      "Workflow Automation: Utilized AI tools to design data-driven platforms and process automation workflows, bridging the gap between operational needs and technical execution."
+    ]
   },
   {
     year: "Aug 2024 - Present",
-    role: "Group Facilitator",
-    organization: "Masa Israeli & Educational Institutions",
+    role: "Tour Guide & Group Facilitator",
+    organization: "Masa Israeli & Similar Companies",
     details: [
-      "Facilitating high-stakes group dynamics at an educational institution, managing peer conflict resolution, and leading team alignment.",
-      "Applying high emotional intelligence (EQ) to coordinate cross-functional team dynamics and drive unified program execution.",
-      "Handling real-time crisis containment, logistical adjustments, and safety protocols under volatile field conditions.",
-    ],
+      "Led on-site field operations and implemented structured educational programs, actively managing group dynamics to ensure a safe and inclusive environment.",
+      "Handled real-time crisis management and adapted schedules on the fly, taking full ownership of the situation to maintain smooth, continuous operations.",
+      "Forged strong, meaningful connections with colleagues and participants, driving engagement and ensuring a high-quality experience for everyone involved.",
+      "Rapidly developed new operational expertise through self-directed learning, building key professional networks and alliances from the ground up."
+    ]
   },
   {
     year: "Apr 2023 - Apr 2024",
-    role: "Logistics Command (R\"sap)",
-    organization: "IDF Paratroopers Command",
+    role: "Logistics & Operations Manager",
+    organization: "IDF",
     details: [
-      "Directed complex tactical supply chains, inventory control protocols, and daily logistical operations for 140+ personnel in high-stress combat units.",
-      "Orchestrated large-scale event logistics, B2B vendor coordination, and material dispatch workflows for up to 3,000 participants.",
-      "Engineered and executed dynamic contingency plans under extreme time constraints, ensuring continuous operational flow with zero downtime.",
-    ],
-  },
+      "Managed comprehensive logistics and strategic planning for 140 personnel under extreme operational pressure.",
+      "Executed rapid site establishment and sustained long-term operations in austere environments.",
+      "Led complex event logistics for up to 3000 participants, including full multi-day accommodation planning.",
+      "Handled external vendor management, procurement, and cross-functional partnerships.",
+      "Organized specialized corporate events and functions to support team morale and organizational goals."
+    ]
+  }
 ];
 
 const EDUCATION = [
   {
-    title: "B.Sc. in Mathematics (Transitioning to part-time)",
-    institution: "Ben-Gurion University of the Negev (Transitioning to part-time to dedicate full focus to a full-time tech operations role)",
+    title: "B.Sc. in Mathematics (1st-year student, transitioning to part-time)",
+    institution: "Ben-Gurion University of the Negev (Transitioning to part-time to fully dedicate energy to a full-time tech operations role)",
   },
   {
-    title: "Certified Group Facilitator & Guide",
+    title: "Certified Tour Guide & Group Facilitator",
     institution: "Eshkolot College & Masa Israeli",
   },
   {
@@ -68,29 +63,22 @@ const EDUCATION = [
 ];
 
 const SKILLS = {
-  "Operations & Supply Chain": [
-    "Supply Chain Management",
-    "B2B Negotiations",
-    "Resource Allocation",
-    "Crisis Operations",
-    "GANTT & Project Budgets",
+  "Operations & Logistics": [
+    "Project Planning",
+    "B2B Communication",
+    "Cross-Functional Leadership",
+    "Crisis Management",
+    "Teamwork & Collaboration"
   ],
-  "Process Architecture & Tech": [
-    "System Design & Logic",
+  "Technology": [
+    "AI-Assisted Development",
     "Process Automation",
-    "AI Workflow Integrations (LLMs)",
-    "Data-Driven Workflows",
+    "Tech Integration"
   ],
-  "Leadership & Communication": [
-    "Stakeholder Management",
-    "Group Facilitation",
-    "Cross-Functional Teamwork",
-    "Contingency Planning",
-  ],
-  Languages: [
+  "Languages": [
     "Hebrew (Native)",
-    "English (Fluent - Business level)",
-  ],
+    "English (Fluent - Business & Conversational)"
+  ]
 };
 
 export default function Resume() {
@@ -161,6 +149,20 @@ export default function Resume() {
           
           {/* Left Side: Timeline of Experience (8 columns width) */}
           <div className="lg:col-span-8 print:col-span-8 space-y-10">
+            
+            {/* Professional Summary */}
+            <div className="space-y-4 print:break-inside-avoid">
+              <div className="border-b border-slate-200 dark:border-slate-800 pb-3 print:border-slate-300">
+                <h3 className="text-lg font-bold text-slate-900 dark:text-white tracking-tight flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-accent dark:bg-accent-dark" />
+                  Professional Summary
+                </h3>
+              </div>
+              <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-relaxed font-sans font-light">
+                I am an Operations and Project Manager with a deep passion and natural talent for problem-solving. My core strength lies in visualizing complex situations, from daily workflows to events of up to 3,000 participants, and translating those visions into clear, practical steps, executing them seamlessly alongside the team. My analytical mindset, which led me to study Mathematics, drives me to simplify processes and integrate AI tools to optimize our efficiency. Whether coordinating international B2B relations or navigating sudden crises, I bring calm, structured execution. As a group facilitator, I value authentic human connection and straightforward communication. I am transitioning to part-time studies to fully dedicate my energy to contributing to a welcoming operations team.
+              </p>
+            </div>
+
             <div className="border-b border-slate-200 dark:border-slate-800 pb-3 print:border-slate-300">
               <h3 className="text-lg font-bold text-slate-900 dark:text-white tracking-tight flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-accent dark:bg-accent-dark" />

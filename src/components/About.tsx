@@ -45,15 +45,15 @@ export default function About() {
           {/* Right Column - Personal Statement & Bio */}
           <div className="lg:col-span-7 flex flex-col justify-center space-y-8 scroll-reveal">
             <h4 className="text-xl font-semibold text-slate-900 dark:text-slate-100 tracking-tight leading-relaxed">
-              "As a Technical Operations and Project Manager, I thrive on engineering order out of complexity. I bridge the gap between technical execution, field operators, and executive leadership."
+              "I am an Operations and Project Manager with a deep passion and natural talent for problem-solving. My core strength lies in translating complex visions into clear, practical steps and executing them seamlessly alongside the team."
             </h4>
 
             <div className="space-y-6 text-slate-650 dark:text-slate-350 text-base leading-relaxed font-sans font-light">
               <p>
-                My foundation in Mathematics equips me with highly analytical, systems-thinking capabilities. I approach operational bottlenecks not just as singular problems to solve, but as complete systems to optimize, automate, and scale. To dedicate my full energy to a full-time tech operations role, I am transitioning to part-time studies.
+                My analytical mindset, which led me to study Mathematics at Ben-Gurion University of the Negev, drives me to simplify workflows and integrate AI tools to optimize operational efficiency. Whether coordinating international B2B relations or navigating sudden crises, I bring calm, structured execution. To fully dedicate my energy to contributing to a welcoming tech operations team, I am transitioning to part-time studies.
               </p>
               <p>
-                Beyond data and processes, successful operations rely on people. Leveraging a strong background in group facilitation at an educational institution, I specialize in Stakeholder Management and cross-functional team leadership. I apply high emotional intelligence (EQ) to ensure seamless communication and alignment between technical teams, field operators, and executive leadership to drive unified, efficient business outcomes.
+                Beyond data and processes, successful operations rely on people. As a certified group facilitator, I value authentic human connection and straightforward communication. I leverage high emotional intelligence (EQ) to manage group dynamics, drive alignment, and coordinate cross-functional collaborations between technical developers, field operators, and executive leadership.
               </p>
             </div>
 
