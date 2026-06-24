@@ -22,14 +22,21 @@ export default function About() {
               <div className="p-6 rounded-2xl border border-slate-100 dark:border-slate-900 bg-slate-50/50 dark:bg-slate-900/20">
                 <h4 className="text-sm font-bold text-slate-900 dark:text-white mb-2">Systems Architecture</h4>
                 <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed font-sans font-light">
-                  Operational bottlenecks aren&apos;t singular problems to solve. They are indicators of system state. I analyze constraints, design automation steps, and build workflows optimized for scale.
+                  Operational bottlenecks are indicators of system state. I analyze constraints, design automation steps, and build workflows optimized for scale.
                 </p>
               </div>
 
               <div className="p-6 rounded-2xl border border-slate-100 dark:border-slate-900 bg-slate-50/50 dark:bg-slate-900/20">
-                <h4 className="text-sm font-bold text-slate-900 dark:text-white mb-2">B.Sc. Mathematics candidate</h4>
+                <h4 className="text-sm font-bold text-slate-900 dark:text-white mb-2">B.Sc. Mathematics Foundation</h4>
                 <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed font-sans font-light">
-                  Studying Mathematics at Ben-Gurion University has trained my mind to abstract complex physical constraints into logical formulas, forming the backbone of my operational workflow strategies.
+                  Studying Mathematics at Ben-Gurion University of the Negev trains my mind to abstract complex physical constraints into logical formulas. Note that I am transitioning to part-time studies to fully dedicate my focus to a full-time tech operations role.
+                </p>
+              </div>
+
+              <div className="p-6 rounded-2xl border border-slate-100 dark:border-slate-900 bg-slate-50/50 dark:bg-slate-900/20">
+                <h4 className="text-sm font-bold text-slate-900 dark:text-white mb-2">EQ & Group Dynamics</h4>
+                <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed font-sans font-light">
+                  My background as a Group Facilitator equips me with strong emotional intelligence (EQ). I lead diverse groups, manage interpersonal dynamics, and align teams around common organizational goals.
                 </p>
               </div>
             </div>
@@ -38,22 +45,22 @@ export default function About() {
           {/* Right Column - Personal Statement & Bio */}
           <div className="lg:col-span-7 flex flex-col justify-center space-y-8 scroll-reveal">
             <h4 className="text-xl font-semibold text-slate-900 dark:text-slate-100 tracking-tight leading-relaxed">
-              &ldquo;As an Operations Manager, I thrive on engineering order out of complexity. I bridge the gap between technical teams, field operators, and executive leadership.&rdquo;
+              "As a Technical Operations and Project Manager, I thrive on engineering order out of complexity. I bridge the gap between technical execution, field operators, and executive leadership."
             </h4>
 
             <div className="space-y-6 text-slate-650 dark:text-slate-350 text-base leading-relaxed font-sans font-light">
               <p>
-                My foundation in Mathematics equips me with highly analytical, systems-thinking capabilities. I approach operational bottlenecks not just as singular problems to solve, but as complete systems to optimize, automate, and scale.
+                My foundation in Mathematics equips me with highly analytical, systems-thinking capabilities. I approach operational bottlenecks not just as singular problems to solve, but as complete systems to optimize, automate, and scale. To dedicate my full energy to a full-time tech operations role, I am transitioning to part-time studies.
               </p>
               <p>
-                Beyond data and processes, successful operations rely on people. Leveraging a strong background in group facilitation, I specialize in Stakeholder Management and cross-functional team leadership. I ensure seamless communication and alignment between technical teams, field operators, and executive leadership to drive unified, efficient business outcomes.
+                Beyond data and processes, successful operations rely on people. Leveraging a strong background in group facilitation at an educational institution, I specialize in Stakeholder Management and cross-functional team leadership. I apply high emotional intelligence (EQ) to ensure seamless communication and alignment between technical teams, field operators, and executive leadership to drive unified, efficient business outcomes.
               </p>
             </div>
 
             {/* Contact Details */}
             <div className="pt-8 border-t border-slate-100 dark:border-slate-900 space-y-4">
               <p className="text-sm font-semibold text-slate-955 dark:text-white uppercase tracking-wider">
-                Let&apos;s Discuss Operations
+                Let's Discuss Operations
               </p>
               <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8 text-sm text-slate-600 dark:text-slate-350">
                 <a

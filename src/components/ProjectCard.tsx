@@ -4,10 +4,10 @@ export interface Project {
   title: string;
   category: string;
   metric?: string;
-  situation: string;
-  task: string;
-  action: string;
-  result: string;
+  challenge: string;
+  execution: string;
+  techAutomation: string;
+  impact: string;
   techStack: string[];
   githubUrl?: string;
   demoUrl?: string;
@@ -22,10 +22,10 @@ export default function ProjectCard({ project }: ProjectCardProps) {
     title,
     category,
     metric,
-    situation,
-    task,
-    action,
-    result,
+    challenge,
+    execution,
+    techAutomation,
+    impact,
     techStack,
     githubUrl,
     demoUrl,
@@ -54,45 +54,45 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           {title}
         </h3>
 
-        {/* STAR Structure */}
+        {/* Project Framework Structure */}
         <div className="space-y-4 mb-6 text-xs sm:text-sm">
-          {/* Situation */}
-          <div className="grid grid-cols-[64px_1fr] gap-x-3 items-start">
+          {/* Challenge */}
+          <div className="grid grid-cols-[80px_1fr] gap-x-3 items-start">
             <span className="font-bold text-slate-400 dark:text-slate-500 select-none uppercase text-[9px] tracking-wider bg-slate-100 dark:bg-slate-800/50 px-1.5 py-0.5 rounded-md text-center">
-              Situation
+              Challenge
             </span>
             <p className="text-slate-600 dark:text-slate-400 leading-relaxed font-sans font-light">
-              {situation}
+              {challenge}
             </p>
           </div>
 
-          {/* Task */}
-          <div className="grid grid-cols-[64px_1fr] gap-x-3 items-start">
+          {/* Execution */}
+          <div className="grid grid-cols-[80px_1fr] gap-x-3 items-start">
             <span className="font-bold text-slate-400 dark:text-slate-500 select-none uppercase text-[9px] tracking-wider bg-slate-100 dark:bg-slate-800/50 px-1.5 py-0.5 rounded-md text-center">
-              Task
+              Execution
             </span>
             <p className="text-slate-600 dark:text-slate-400 leading-relaxed font-sans font-light">
-              {task}
+              {execution}
             </p>
           </div>
 
-          {/* Action */}
-          <div className="grid grid-cols-[64px_1fr] gap-x-3 items-start">
+          {/* Tech/Automation */}
+          <div className="grid grid-cols-[80px_1fr] gap-x-3 items-start">
             <span className="font-bold text-accent dark:text-accent-dark select-none uppercase text-[9px] tracking-wider bg-accent/10 dark:bg-accent-dark/10 px-1.5 py-0.5 rounded-md text-center">
-              Action
+              Systems
             </span>
             <p className="text-slate-600 dark:text-slate-400 leading-relaxed font-sans font-light">
-              {action}
+              {techAutomation}
             </p>
           </div>
 
-          {/* Result */}
-          <div className="grid grid-cols-[64px_1fr] gap-x-3 items-start">
-            <span className="font-bold text-emerald-600 dark:text-emerald-400 select-none uppercase text-[9px] tracking-wider bg-emerald-500/10 dark:bg-emerald-400/10 px-1.5 py-0.5 rounded-md text-center">
-              Result
+          {/* Impact */}
+          <div className="grid grid-cols-[80px_1fr] gap-x-3 items-start">
+            <span className="font-bold text-emerald-600 dark:text-emerald-450 select-none uppercase text-[9px] tracking-wider bg-emerald-500/10 dark:bg-emerald-400/10 px-1.5 py-0.5 rounded-md text-center">
+              Impact
             </span>
             <p className="text-slate-800 dark:text-slate-200 font-medium leading-relaxed font-sans">
-              {result}
+              {impact}
             </p>
           </div>
         </div>

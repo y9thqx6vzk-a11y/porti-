@@ -12,31 +12,32 @@ interface TimelineItem {
 const EXPERIENCES: TimelineItem[] = [
   {
     year: "Oct 2025 - Present",
-    role: "End-to-End Product Operations",
+    role: "Product Operations Manager (AI Automations)",
     organization: "Smart Mobility Prototype (Tremp_app)",
     details: [
-      "Architected a scalable, tech-enabled platform to manage complex carpool logistics and optimize daily transit operations for students and soldiers.",
-      "Led product operations from concept to execution, integrating LLMs and AI workflows to map user behaviors and automate system routing.",
-      "Designed the core database structure and coordinated system integrations to automate route matching and dispatch functions.",
+      "Leading end-to-end product operations from concept validation to live prototype execution, coordinating cross-functional technical workflows.",
+      "Integrating advanced LLMs and automation tools to parse user requests, map transportation corridors, and automate route dispatch logic.",
+      "Designing the core system architecture and database structures to streamline matching speed from hours to real-time seconds.",
     ],
   },
   {
     year: "Oct 2025 - Present",
-    role: "Cross-Border Project Manager & Supply Chain Lead",
+    role: "Technical Project & Supply Chain Manager",
     organization: "International Group Expeditions",
     details: [
-      "Directing end-to-end supply chain pipelines and B2B logistics for a large-scale expedition to Sri Lanka (Q3 2026 Rollout).",
-      "Managing international vendor contracts, B2B negotiations, and cross-border budgets under strict deadline constraints.",
-      "Engineered specialized supply workflows in complex international environments, including establishing local kosher logistics at global 5-star hotels.",
+      "Directing end-to-end supply chain logistics and B2B negotiations for large-scale international group expeditions (Q3 2026 Rollout).",
+      "Managing international vendor contracts, cross-border operations budgets, and timeline checkpoints under tight operational schedules.",
+      "Orchestrating complex, hyper-specific logistical solutions in remote regions, including establishing specialized local supply chains at 5-star hotels.",
     ],
   },
   {
     year: "Aug 2024 - Present",
-    role: "Tour Guide & Group Facilitator",
-    organization: "Masa Israeli & Educational Organizations",
+    role: "Group Facilitator",
+    organization: "Masa Israeli & Educational Institutions",
     details: [
-      "Facilitating group dynamics with a focus on cross-functional team leadership, alignment, and communication.",
-      "Delivering educational content and managing logistics/crisis containment in real-time under volatile field conditions.",
+      "Facilitating high-stakes group dynamics at an educational institution, managing peer conflict resolution, and leading team alignment.",
+      "Applying high emotional intelligence (EQ) to coordinate cross-functional team dynamics and drive unified program execution.",
+      "Handling real-time crisis containment, logistical adjustments, and safety protocols under volatile field conditions.",
     ],
   },
   {
@@ -44,17 +45,17 @@ const EXPERIENCES: TimelineItem[] = [
     role: "Logistics Command (R\"sap)",
     organization: "IDF Paratroopers Command",
     details: [
-      "Directed high-scale supply chains, tactical material flow, and daily operations for 140+ personnel in high-stress environments.",
-      "Orchestrated logistics, vendor coordination, and operations for large-scale exercises accommodating up to 3,000 participants.",
-      "Engineered fail-safe contingency plans and inventory control protocols, ensuring continuous flow with zero downtime.",
+      "Directed complex tactical supply chains, inventory control protocols, and daily logistical operations for 140+ personnel in high-stress combat units.",
+      "Orchestrated large-scale event logistics, B2B vendor coordination, and material dispatch workflows for up to 3,000 participants.",
+      "Engineered and executed dynamic contingency plans under extreme time constraints, ensuring continuous operational flow with zero downtime.",
     ],
   },
 ];
 
 const EDUCATION = [
   {
-    title: "B.Sc. in Mathematics (Candidate)",
-    institution: "Ben-Gurion University of the Negev",
+    title: "B.Sc. in Mathematics (Transitioning to part-time)",
+    institution: "Ben-Gurion University of the Negev (Transitioning to part-time to dedicate full focus to a full-time tech operations role)",
   },
   {
     title: "Certified Group Facilitator & Guide",
@@ -145,7 +146,7 @@ export default function Resume() {
         <div className="hidden print:block mb-10 border-b pb-6 border-slate-300">
           <h1 className="text-3xl font-bold text-black tracking-tight mb-2">Eyal Granot</h1>
           <p className="text-slate-700 text-sm font-medium">
-            Data-Driven Operations Manager & Process Architect
+            Technical Operations & Project Manager
           </p>
           <div className="flex flex-wrap gap-x-6 gap-y-1 mt-3 text-xs text-slate-500 font-sans">
             <span>Phone: 054-3510664</span>

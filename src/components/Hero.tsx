@@ -3,9 +3,10 @@
 import { useEffect, useState } from "react";
 
 const ROLES = [
-  "Operations Manager & Process Architect",
-  "Systems-Thinking Operations Leader",
-  "Logistics Command & Supply Chain Expert",
+  "Technical Operations Manager",
+  "Technical Project Manager",
+  "Implementation Specialist",
+  "Operations & Process Developer",
 ];
 
 export default function Hero() {
@@ -40,14 +41,14 @@ export default function Hero() {
         {/* Intro Badge */}
         <div className="inline-flex items-center gap-2 px-3 py-1 text-xs font-medium bg-accent/10 text-accent dark:bg-accent-dark/10 dark:text-accent-dark rounded-full border border-accent/20 dark:border-accent-dark/20 animate-fade-in">
           <span className="w-1.5 h-1.5 rounded-full bg-accent dark:bg-accent-dark animate-ping" />
-          Data-Driven Operations & Process Design
+          Data-Driven Technical Operations & Process Design
         </div>
 
         {/* Hero Title */}
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-tight font-sans">
           Eyal Granot <br />
-          <span className="bg-gradient-to-r from-accent to-violet-500 dark:from-accent-dark dark:to-violet-400 bg-clip-text text-transparent">
-            Data-Driven Operations Manager <br className="hidden sm:inline" /> & Process Architect
+          <span className="bg-gradient-to-r from-slate-900 to-slate-700 dark:from-slate-100 dark:to-slate-300 bg-clip-text text-transparent">
+            Technical Operations <br className="hidden sm:inline" /> & Project Manager
           </span>
         </h1>
 
@@ -64,7 +65,7 @@ export default function Hero() {
 
         {/* Short Paragraph Description */}
         <p className="max-w-3xl mx-auto text-base md:text-lg text-slate-500 dark:text-slate-400 leading-relaxed font-sans font-light">
-          I bridge the gap between complex physical logistics and digital automation. By leveraging AI and system architecture, I transform operational bottlenecks into scalable workflows, ensuring zero downtime and maximum efficiency.
+          Bridging the gap between complex logistical operations and technical execution using AI and workflow automation. I design and scale systems to transform operational bottlenecks into streamlined workflows, ensuring high efficiency and zero downtime.
         </p>
 
         {/* Call-to-actions */}
